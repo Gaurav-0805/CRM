@@ -39,4 +39,46 @@ This admin dashboard includes:
 ---
 
 ## 📁 Folder Structure
+crm-dashboard/
+├── crm-frontend/
+│ └── app/
+│ └── admin-dashboard/
+│ └── pages/
+│ ├── reports/
+│ ├── new-business/
+│ └── payment-due/
+│ └── shared/tab-state.service.ts
+├── crm-backend/
+│ ├── routes/
+│ │ ├── reports.js
+│ │ └── customers.js
+│ ├── index.js
+│ └── CRM_db.sql
+
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/Gaurav-0805/crm-dashboard.git
+cd crm-dashboard
+
+2. **Backend Setup**
+
+cd crm-backend
+npm install
+# Create a .env file with the following variables:
+PORT=3000
+DATABASE_URL=your_postgres_url
+JWT_SECRET=your_secret
+node index.js
+
+3. **Frontend Setup**
+cd crm-frontend
+npm install
+ng serve
+
 
