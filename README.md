@@ -66,7 +66,7 @@ crm-dashboard/
 git clone https://github.com/Gaurav-0805/crm-dashboard.git
 cd crm-dashboard
 
-2. **Backend Setup**
+2. Backend Setup
 
 cd crm-backend
 npm install
@@ -76,7 +76,7 @@ DATABASE_URL=your_postgres_url
 JWT_SECRET=your_secret
 node index.js
 
-3. **Frontend Setup**
+3. Frontend Setup
 cd crm-frontend
 npm install
 ng serve
